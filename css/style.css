@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Nova Square';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/RrQUbo9-9DV7b06QHgSWsahHT4I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root{
+    background-color : rgb(29, 26, 26);
+}
+
+body {
+    height: 100vh; 
+    width: 56.25vh;
+    box-sizing: border-box;
+    margin:0 auto;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-size: 62.5%;
+    font-family: 'Nova Squre', cursive;
+    overflow: hidden;
+    position: relative;
+}
+
+canvas {
+    border-style: solid;
+    background-color: #373737;    
+}
+
+#board{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 27.8%;
+    width: 42%;
+    height: 23%;
+    background-color: black;
+    opacity: 0.8;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#board label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 2vh;
+}
+
+#highscore{
+    font-size: 3vh !important;
+    color: yellow !important;
+}
+
+#score{
+    color: red !important;
+}
+
+.btn{
+    outline: none;
+    border-style: none;  
+    border-radius: 3px;
+    background-color: #00ff00;
+    padding: 1.5vh;
+    font-size: 2.4vh !important;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:rgb(48, 158, 52);
+}
+
+#btnMain{
+    text-decoration: none;
+    color: black;
+}
